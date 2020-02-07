@@ -1,0 +1,38 @@
+section
+{
+  width: 100%;  
+  text-align: center;
+   
+}
+
+#grille
+{
+    display: grid;
+    grid-template-columns: unset;
+    grid-template-rows: unset;
+    
+}
+
+.mur
+{
+ background-image: url(../img/mur.gif);
+ z-index: 0; 
+}
+
+.sol
+{
+ background-image: url(../img/sol.gif);
+ z-index: 0; 
+}
+
+.bonbon
+{
+ background-image: url(../img/bonbon.gif);
+ z-index: 1; 
+}
+
+.pacMan
+{
+background-image: url(../img/pacman4.gif);
+z-index: 2;
+}
