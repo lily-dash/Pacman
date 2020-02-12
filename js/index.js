@@ -29,7 +29,9 @@ x:5,
 y:2,
 direction:0,
 }
+
 var viderGrille =document.getElementById("grille");
+
 function initGrille()
 {
 
